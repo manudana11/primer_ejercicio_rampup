@@ -21,16 +21,17 @@ html body {
     width: 550px;
     line-height: 1.6;
     font-family: "Courier Prime", monospace;
+    color: grey;
 }
 
 h1 {
     font-size: 35px;
-    color: yellowgreen;
+    color: orange;
 }
 
 h2 {
     font-size: 25px;
-    color: yellow;
+    color: yellowgreen;
 }
 
 .texto-derecha {
@@ -38,8 +39,14 @@ h2 {
     color: blue;
 }
 
+p {
+    font-size: 15px;
+}
+
 li {
     margin-left: 40px;
+    font-size: 25px;
+    word-wrap: break-word;
 }
 
 a {
@@ -61,4 +68,25 @@ a:hover::after {
 
 .muyEspaciado {
     word-spacing: 200px;
+}
+
+.unacoma {
+    quotes: '『' '.';
+    vertical-align: super;
+}
+
+.estrecho {
+    border: 1px solid black;
+    width: 150px;
+    hyphens: auto;
+}
+
+.subtitulo {
+    vertical-align: sub;
+    color: black;
+}
+
+.envertical {
+    writing-mode: vertical-rl;
+    margin-top: 65px;
 }
