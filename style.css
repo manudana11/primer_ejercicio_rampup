@@ -1,0 +1,47 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    }
+
+html body {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    width: 550px;
+    line-height: 1.6;
+}
+
+h1 {
+    font-size: 25px;
+    color: aquamarine;
+}
+
+h2 {
+    font-size: 18px;
+    color: blue;
+}
+
+.texto-derecha {
+    text-align: right;
+    color: blue;
+}
+
+li {
+    margin-left: 40px;
+}
+
+a {
+    color: green;
+    text-decoration: underline;
+}
+
+a:hover {
+    color: red;
+}
+
+a:hover::after {
+    color: blueviolet;
+}
