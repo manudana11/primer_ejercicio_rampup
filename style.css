@@ -5,6 +5,12 @@
     text-decoration: none;
     }
 
+.courier-prime-regular {
+    font-family: "Courier Prime", monospace;
+    font-weight: 400;
+    font-style: normal;
+}      
+
 html body {
     margin-left: auto;
     margin-right: auto;
@@ -12,16 +18,17 @@ html body {
     margin-bottom: 50px;
     width: 550px;
     line-height: 1.6;
+    font-family: "Courier Prime", monospace;
 }
 
 h1 {
-    font-size: 25px;
-    color: aquamarine;
+    font-size: 35px;
+    color: yellowgreen;
 }
 
 h2 {
-    font-size: 18px;
-    color: blue;
+    font-size: 25px;
+    color: yellow;
 }
 
 .texto-derecha {
@@ -44,4 +51,12 @@ a:hover {
 
 a:hover::after {
     color: blueviolet;
+}
+
+.parrafo-negrita {
+    font-weight: bolder;
+}
+
+.muyEspaciado {
+    word-spacing: 200px;
 }
